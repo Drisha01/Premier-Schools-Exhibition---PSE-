@@ -877,7 +877,7 @@ body {
 .choose__heading {
     text-align: center;
     font-size: 42px;
-    font-weight: 800;
+    font-weight: 700;
     color: var(--primary);
     margin-bottom: 48px;
 }
@@ -1007,6 +1007,10 @@ body {
         border-radius: 16px;
         touch-action: pan-y;
         cursor: grab;
+    }
+
+    .choose__heading{
+        font-size: 32px;
     }
 
     .choose__carousel:active {
@@ -1225,6 +1229,11 @@ body {
         order: 2;
     }
 
+    .prebook__eyebrow , 
+    .prebook__sub {
+        font-size: 24px;
+    }
+
     .prebook__image-wrap {
         grid-column: 1;
         order: 1;
@@ -1246,6 +1255,11 @@ body {
 
     .header__logo img {
         width: 120px;
+    }
+
+    .prebook__eyebrow , 
+    .prebook__sub {
+        font-size: 20px;
     }
 
     .header.header--sticky .header__logo img {
@@ -1454,6 +1468,10 @@ body {
         flex: 0 0 calc((100% - 20px) / 2);
         /* 2 cards */
     }
+
+    .exhibition__heading{
+        font-size: 32px;
+    }
 }
 
 @media (max-width: 580px) {
@@ -1464,6 +1482,10 @@ body {
 
     .exhibition::after {
         height: 60px;
+    }
+
+    .exhibition__heading{
+        font-size: 32px;
     }
 }
 
